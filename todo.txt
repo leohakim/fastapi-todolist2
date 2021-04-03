@@ -1,0 +1,12 @@
+Add Logging to console with db actions
+
+ex: LOG INFO: Saved <id> in PostgreSQL.
+    LOG INFO: Deleted <id> in MongoDB.
+
+Add extras Async DB Python connections to the API, like Cassandra, Redis, etc.
+
+Check the Text for Return Errors. Maybe make it multilingual?
+
+Find the way for run migrations (alembic upgrade head) after start PostgreSQL (automatically).
+
+Get better the code for SQL databases library, find the way for do that in SQLAlchemy.

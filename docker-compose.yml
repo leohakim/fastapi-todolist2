@@ -5,7 +5,7 @@ services:
     image: postgres:11.6
     container_name: pgsql-todolist
     volumes:
-      - ./pg_data/data:/var/lib/postgresql/data
+      - ./:/app/pgsql_data/
 
   web:
     restart: always
@@ -14,8 +14,6 @@ services:
     build: ./
     env_file:
       - .env
-#    command: >
-#      bash -c "source app/run.sh"
     volumes:
       - ./:/app
     ports:

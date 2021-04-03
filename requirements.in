@@ -7,6 +7,11 @@ pydantic[email]
 motor
 dnspython
 psycopg2-binary
+databases[postgresql]
+
+# ORM Schema, Migrations
+SQLAlchemy
+alembic
 
 # Development
 black
