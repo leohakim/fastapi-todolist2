@@ -15,4 +15,8 @@
 
 ## For Run 
 
-###### Author: Leonardo Hakim <leohakim@gmail.com>
+###### Author: Leonardo Hakim <leohakim@gmail.com> Twitter: @leohadouken
+
+## Inspired on: 
+## Article: https://www.jeffastor.com/blog/pairing-a-postgresql-db-with-your-dockerized-fastapi-app
+## Video: https://www.twitch.tv/videos/925691441
